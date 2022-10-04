@@ -422,6 +422,7 @@ span {
     display: flex;
     flex-direction: row;
     overflow-x: scroll;
+    position: absolute;
     /* background-color: rgb(161, 56, 56); */
   }
   .navigation {
@@ -464,13 +465,13 @@ span {
   .header2{
     width: 100%;
     height: 50px;
-    position: fixed;
+    /* position: fixed; */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     left: 0;
-    top:20vh ;
+    top:10vh ;
     cursor: pointer;
     border-top: 1px solid rgba(73, 73, 73, 0.521);
     border-bottom: 1px solid rgba(73, 73, 73, 0.521);
@@ -504,11 +505,13 @@ span {
     .scroll1{
       overflow-x: scroll ;
       height: 300px;
-      top: 22vh;
+      top: 28vh;
       position: absolute;
+      /* border :1px solid red; */
     }
     .scroll2{
       overflow-x: scroll ;
+      /* border: 1px solid blue; */
       height: 300px;
       top: 450px;
       position: absolute;
@@ -594,18 +597,18 @@ span {
     overflow-x:scroll ;
     width: 100%;
   }
-  .scroll1{
+  /* .scroll1{
     overflow-x: scroll ;
     height: 300px;
     top: 22vh;
     position: fixed;
-  }
-  .scroll2{
+  } */
+  /* .scroll2{
     overflow-x: scroll ;
     height: 300px;
     top: 450px;
     position: fixed;
-  }
+  } */
   
 
 }
