@@ -502,14 +502,12 @@ span {
       z-index: 1000;
     }
     .scroll1{
-      /* border: 1px solid rgb(98, 0, 255); */
       overflow-x: scroll ;
       height: 300px;
       top: 22vh;
       position: absolute;
     }
     .scroll2{
-      /* border: 1px solid rgb(98, 0, 255); */
       overflow-x: scroll ;
       height: 300px;
       top: 450px;
@@ -597,14 +595,12 @@ span {
     width: 100%;
   }
   .scroll1{
-    /* border: 1px solid rgb(98, 0, 255); */
     overflow-x: scroll ;
     height: 300px;
     top: 22vh;
     position: fixed;
   }
   .scroll2{
-    /* border: 1px solid rgb(98, 0, 255); */
     overflow-x: scroll ;
     height: 300px;
     top: 450px;
