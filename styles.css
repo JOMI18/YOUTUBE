@@ -489,12 +489,33 @@ span {
       width: 100%;
       flex-wrap: wrap;
       z-index: 100000;
-      /* position: absolute; */
+      position: fixed;
       aspect-ratio: 16;
       left: 0%;
       top: 19vh;
       /* border: 1px solid black; */
     }
+    .side-bar{
+      z-index: 100;
+    }
+    .header2{
+      z-index: 1000;
+    }
+    .scroll1{
+      /* border: 1px solid rgb(98, 0, 255); */
+      overflow-x: scroll ;
+      height: 300px;
+      top: 22vh;
+      position: absolute;
+    }
+    .scroll2{
+      /* border: 1px solid rgb(98, 0, 255); */
+      overflow-x: scroll ;
+      height: 300px;
+      top: 450px;
+      position: absolute;
+    }
+    
 
     .abt div:nth-child(1),
     .abt div:nth-child(2){
@@ -549,7 +570,7 @@ span {
   .right i{
     font-size: 13px;
   }
-  
+
 
 
 }
@@ -580,14 +601,14 @@ span {
     overflow-x: scroll ;
     height: 300px;
     top: 22vh;
-    position: absolute;
+    position: fixed;
   }
   .scroll2{
     /* border: 1px solid rgb(98, 0, 255); */
     overflow-x: scroll ;
     height: 300px;
     top: 450px;
-    position: absolute;
+    position: fixed;
   }
   
 
