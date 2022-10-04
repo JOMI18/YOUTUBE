@@ -488,7 +488,8 @@ span {
       justify-content: space-between;
       width: 100%;
       flex-wrap: wrap;
-      position: relative;
+      z-index: 100000;
+      /* position: absolute; */
       aspect-ratio: 16;
       left: 0%;
       top: 19vh;
@@ -548,6 +549,9 @@ span {
   .right i{
     font-size: 13px;
   }
+  
+
+
 }
 
 @media (max-width:560px) {
@@ -571,6 +575,19 @@ span {
     overflow-x:scroll ;
     width: 100%;
   }
+  .scroll1{
+    /* border: 1px solid rgb(98, 0, 255); */
+    overflow-x: scroll ;
+    height: 300px;
+    /* position: absolute; */
+  }
+  .scroll2{
+    /* border: 1px solid rgb(98, 0, 255); */
+    overflow-x: scroll ;
+    height: 300px;
+    /* position: absolute; */
+  }
+  
 
 }
 
