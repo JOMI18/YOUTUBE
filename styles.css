@@ -419,6 +419,7 @@ span {
   .side-bar {
     height: 10vh;
     width: 100%;
+    position: absolute;
     display: flex;
     flex-direction: row;
     overflow-x: scroll;
@@ -490,30 +491,36 @@ span {
       width: 100%;
       flex-wrap: wrap;
       z-index: 100000;
-      position: fixed;
+      /* position: absolute; */
       aspect-ratio: 16;
       left: 0%;
       top: 19vh;
       /* border: 1px solid black; */
     }
-    .side-bar{
-      z-index: 100;
-    }
+    /* .side-bar{
+      z-index: 10000 !important;
+    } */
     .header2{
       z-index: 1000;
     }
     .scroll1{
+
       overflow-x: scroll ;
+
       height: 300px;
       top: 28vh;
+
       position: absolute;
       /* border :1px solid red; */
     }
     .scroll2{
+
       overflow-x: scroll ;
+
       /* border: 1px solid blue; */
       height: 300px;
       top: 450px;
+
       position: absolute;
     }
     
@@ -597,21 +604,6 @@ span {
     overflow-x:scroll ;
     width: 100%;
   }
-  /* .scroll1{
-    overflow-x: scroll ;
-    height: 300px;
-    top: 22vh;
-    position: fixed;
-  } */
-  /* .scroll2{
-    overflow-x: scroll ;
-    height: 300px;
-    top: 450px;
-    position: fixed;
-  } */
-  
-
-}
 
 
 
